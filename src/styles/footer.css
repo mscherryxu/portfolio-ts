@@ -1,0 +1,5 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  bottom: 0;
+}
