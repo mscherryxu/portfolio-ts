@@ -9,7 +9,7 @@ const Projects = () => {
       <ul>
         <li>
           3-week long team project building a progressive web app (PWA) to track
-          users’ weightlifting progress and help users develop motivation to
+          users' weightlifting progress and help users develop motivation to
           lift by using characters users can choose and unlock. The more a user
           lifts, the more characters are unlocked.
         </li>
