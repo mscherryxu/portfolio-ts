@@ -112,10 +112,12 @@ const Contact = () => {
             </form>
           </div>
         </div>
-        <div className="contact-info-container">
-          <h1 className="contact-header-2">Contact Me</h1>
-          <p className="contact-info">📱 646-580-2763</p>
-          <p className="contact-info">✉️ ms.cherry.xu@gmail.com</p>
+        <div className="contact-info-parent-container">
+          <div className="contact-info-container">
+            <h1 className="contact-header-2">Contact Me</h1>
+            <p className="contact-info">📱 646-580-2763</p>
+            <p className="contact-info">✉️ ms.cherry.xu@gmail.com</p>
+          </div>
         </div>
       </div>
     </>
