@@ -1,6 +1,5 @@
 .footer-container {
   position: relative;
-  min-height: 5vh;
 }
 
 .footer {
@@ -14,4 +13,13 @@
   bottom: 0;
   width: 100%;
   height: 2.5rem;
+}
+
+.github-logo {
+  width: 6rem;
+}
+
+.linked-in-logo {
+  margin-top: 2rem;
+  width: 5.5rem;
 }
