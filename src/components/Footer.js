@@ -11,7 +11,11 @@ const Footer = () => {
             rel="noreferrer"
             className="footer-link"
           >
-            Github
+            <img
+              src="/images/github-wordmark.png"
+              className="github-logo"
+              alt="github-logo"
+            />
           </a>
           <a
             href="https://www.linkedin.com/in/cherryxu-rdcdn/"
@@ -19,7 +23,11 @@ const Footer = () => {
             rel="noreferrer"
             className="footer-link"
           >
-            LinkedIn
+            <img
+              src="/images/linkedin-wordmark.png"
+              className="linked-in-logo"
+              alt="linked-in-logo"
+            />
           </a>
         </div>
       </div>
