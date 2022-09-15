@@ -1,11 +1,18 @@
 .intro {
   color: #EC6164;
+  font-size: 2rem;
   text-align: center;
 }
 
 .profile-image {
   display: block;
   border-radius: 50%;
+  border: 5px solid #EC6164;
   margin: auto;
-  max-width: 15rem;
+  max-width: 12.5rem;
+}
+
+.career-title {
+  font-size: 1.5rem;
+  text-align: center;
 }

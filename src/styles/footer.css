@@ -1,9 +1,10 @@
 .footer-container {
   position: relative;
+  min-height: 5vh;
 }
 
 .footer {
-  padding-bottom: 2.5rem;
+  padding: 1rem 0 2.5rem;
 }
 
 .footer-links {
