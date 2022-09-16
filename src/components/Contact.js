@@ -39,7 +39,7 @@ const Contact = () => {
     const isSubjectValid = subject !== "";
 
     if (!isNameValid) {
-      errors.push("Name is not valid, please your name.");
+      errors.push("Name is not valid, please enter your name.");
     }
     if (!ValidateEmail(email)) {
       errors.push("Email is not valid, please try again.");
