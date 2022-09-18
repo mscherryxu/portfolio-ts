@@ -4,7 +4,7 @@ import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
 import { TextareaAutosize } from '@mui/material';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
-import { red, purple } from '@mui/material/colors';
+import { red } from '@mui/material/colors';
 import emailjs from '@emailjs/browser';
 import Swal from 'sweetalert2';
 
@@ -14,7 +14,7 @@ const theme = createTheme({
       main: red[500],
     },
     secondary: {
-      main: purple[500],
+      main: '#002884',
     },
   },
 });
@@ -48,7 +48,7 @@ function Contact() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Box>
+        <Box display="flex" justifyContent="center" textAlign="center">
           <form onSubmit={onHandleSubmit}>
             <div>
               <h1 className="contact-header">
@@ -63,7 +63,6 @@ function Contact() {
                 required
               />
             </div>
-
             <div>
               <TextField
                 fullWidth
@@ -84,7 +83,7 @@ function Contact() {
                 placeholder="Write your message here!"
                 style={{
                   width: '100%',
-                  height: 100,
+                  height: 125,
                   fontSize: '1rem',
                   padding: '1rem',
                   marginTop: '0.5rem',
@@ -96,7 +95,15 @@ function Contact() {
               />
             </div>
             <div>
-              <Button type="submit">Send</Button>
+              <Button
+                type="submit"
+                variant="contained"
+                color="secondary"
+                display="flex"
+                justifyContent="center"
+              >
+                Send
+              </Button>
             </div>
           </form>
         </Box>
