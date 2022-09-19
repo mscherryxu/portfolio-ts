@@ -12,7 +12,15 @@
 .parent-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
   margin: 3.5rem;
+}
+
+.project-gif {
+  display: flex;
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 ul li {
