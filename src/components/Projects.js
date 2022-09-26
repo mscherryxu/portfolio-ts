@@ -14,8 +14,8 @@ const Projects = () => {
         />
         <ul className="list">
           <li>
-            3-week long team project building a progressive web app (PWA) to
-            track users' weightlifting progress and help users develop
+            Team project with 4 engineers building a progressive web app (PWA)
+            to track users' weightlifting progress and help users develop
             motivation to lift by using characters users can choose and unlock.
             The more a user lifts, the more characters are unlocked.
           </li>
@@ -30,7 +30,7 @@ const Projects = () => {
       </div>
       <h2>Baked By Fullstack</h2>
       <a href="https://baked-byfullstack.herokuapp.com/">Deployed on Heroku</a>
-      <ul>
+      <ul className="list">
         <li>1.5 week-long team project to build an e-commerce site.</li>
         <li>
           Built database in postgreSQL, and created API and ORM in Sequelize to
