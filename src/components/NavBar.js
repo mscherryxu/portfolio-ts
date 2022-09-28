@@ -14,6 +14,11 @@ const NavBar = () => {
             />
           </Link>
         </div>
+        <a href="/" className="toggle-button">
+          <span className="bar"></span>
+          <span className="bar"></span>
+          <span className="bar"></span>
+        </a>
         <div className="nav-links">
           <Link to="/about" className="nav-link">
             About
