@@ -5,10 +5,11 @@ const About = () => {
     <div className="outer-container">
       <div className="about-parent-container">
         <h1 className="intro">Hi, my name is Cherry Xu! 👋</h1>
-        <img src="/images/Cherry.jpeg" alt="Cherry" className="profile-image" />
         <h2 className="career-title">
           Registered Dietitian to an aspiring Full-Stack Software Engineer
         </h2>
+        <img src="/images/Cherry.jpeg" alt="Cherry" className="profile-image" />
+
         <h3>My Journey</h3>
         <p>
           As a Registered Dietitian since 2014, I've enjoyed working with others
