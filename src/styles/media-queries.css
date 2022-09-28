@@ -13,16 +13,15 @@
   }
 
   .outer-container {
-    display: flex;
-    justify-content: center;
+    padding-top: 2rem;
   }
 
   .about-parent-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    width: 60%;
-    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
   }
 
   .project-container {
