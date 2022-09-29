@@ -16,7 +16,13 @@
   color: #EC6164;
 }
 
-.project-gif {
+.project-lift-gif {
+  display: flex;
+  margin: auto;
+  padding-bottom: 1rem;
+}
+
+.project-baked-gif {
   display: flex;
   margin: auto;
   width: 20rem;
