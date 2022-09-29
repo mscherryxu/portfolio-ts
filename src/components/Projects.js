@@ -9,7 +9,7 @@ const Projects = () => {
         <img
           src="https://media4.giphy.com/media/fBWUcjXDlQf1QMGdrO/giphy.gif?cid=790b761186dcc13a29592b84ed058a6445d8a049e7ef745d&rid=giphy.gif&ct=g"
           alt="Gif of Lift the World App"
-          className="project-gif"
+          className="project-lift-gif"
         />
         <div className="list">
           <p>
@@ -52,8 +52,8 @@ const Projects = () => {
       <div className="project-container">
         <img
           src="https://media.giphy.com/media/yu5h1wCpgITAc70KCJ/giphy.gif"
-          alt="Gif of Lift the World App"
-          className="project-gif"
+          alt="Gif of Baked By Fullstack"
+          className="project-baked-gif"
         />
         <div className="list">
           <p>
