@@ -10,8 +10,8 @@
   font-family: sans-serif;
 }
 
-a:link {
-  color: black;
+a {
+  color: #000;
 }
 
 a:hover {
