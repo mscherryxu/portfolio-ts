@@ -27,24 +27,22 @@ const Projects = () => {
             Thunk, Node.js, Express routes, and Sequelize with PostgreSQL.
           </p>
           <div className="button-container">
-            <button className="source-code">
-              <a
-                href="https://lift-the-world.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Deployed
-              </a>
-            </button>
-            <button className="source-code">
-              <a
-                href="https://github.com/mscherryxu/lift-the-world"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Source Code
-              </a>
-            </button>
+            <a
+              href="https://lift-the-world.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="a-button"
+            >
+              Deployed
+            </a>
+            <a
+              href="https://github.com/mscherryxu/lift-the-world"
+              target="_blank"
+              rel="noreferrer"
+              className="a-button"
+            >
+              Source Code
+            </a>
           </div>
         </div>
       </div>
@@ -66,24 +64,22 @@ const Projects = () => {
             Thunk, Node.js, Express routes, and Sequelize with PostgreSQL.
           </p>
           <div className="button-container">
-            <button className="source-code">
-              <a
-                href="https://baked-byfullstack.herokuapp.com/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Deployed
-              </a>
-            </button>
-            <button className="source-code">
-              <a
-                href="https://github.com/mscherryxu/baked"
-                target="_blank"
-                rel="noreferrer"
-              >
-                Source Code
-              </a>
-            </button>
+            <a
+              href="https://baked-byfullstack.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="a-button"
+            >
+              Deployed
+            </a>
+            <a
+              href="https://github.com/mscherryxu/baked"
+              target="_blank"
+              rel="noreferrer"
+              className="a-button"
+            >
+              Source Code
+            </a>
           </div>
         </div>
       </div>
