@@ -11,21 +11,21 @@ const Projects = () => {
           alt="Gif of Lift the World App"
           className="project-gif"
         />
-        <ul className="list">
-          <li>
+        <div className="list">
+          <p>
             Team project built with 4 engineers: a progressive web app (PWA) to
             track users' weightlifting progress and help users develop
             motivation to lift by using characters users can choose and unlock.
             Total weight lifted are compared to real-world objects. The more a
             user lifts, the more characters are unlocked.
-          </li>
-          <li>
+          </p>
+          <p>
             Used service worker and Lighthouse to check for app installability.
-          </li>
-          <li>
+          </p>
+          <p>
             Technologies used include: Javascript, HTML, CSS, React, Redux
             Thunk, Node.js, Express routes, and Sequelize with PostgreSQL.
-          </li>
+          </p>
           <div className="button-container">
             <button className="source-code">
               <a
@@ -46,7 +46,7 @@ const Projects = () => {
               </a>
             </button>
           </div>
-        </ul>
+        </div>
       </div>
       <h2>Baked By Fullstack</h2>
       <div className="project-container">
@@ -55,16 +55,16 @@ const Projects = () => {
           alt="Gif of Lift the World App"
           className="project-gif"
         />
-        <ul className="list">
-          <li>
+        <div className="list">
+          <p>
             Team project with 4 engineers to build an e-commerce site where
             guests and logged-in users can purchase baked goods. Admin can edit,
             add, and delete products.
-          </li>
-          <li>
+          </p>
+          <p>
             Technologies used include: Javascript, HTML, CSS, React, Redux
             Thunk, Node.js, Express routes, and Sequelize with PostgreSQL.
-          </li>
+          </p>
           <div className="button-container">
             <button className="source-code">
               <a
@@ -85,7 +85,7 @@ const Projects = () => {
               </a>
             </button>
           </div>
-        </ul>
+        </div>
       </div>
     </div>
   );

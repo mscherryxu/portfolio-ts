@@ -2,6 +2,7 @@
 @import "./styles/footer.css";
 @import "./styles/about.css";
 @import "./styles/contact.css";
+@import "./styles/projects.css";
 @import "./styles/media-queries.css";
 
 * {
@@ -9,63 +10,10 @@
   font-family: sans-serif;
 }
 
-.parent-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
-}
-
-.projects-title {
-  font-size: 1.75rem;
-  color: #EC6164;
-}
-
-.project-gif {
-  display: flex;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-ul li {
-  list-style-type: none;
-  margin-left: -1rem;
-  padding: 0.5rem;
-  line-height: 1.25;
-}
-
 a:link {
   color: black;
 }
 
 a:hover {
-  color: #EC6164;
-}
-
-.button-container {
-  display: flex;
-  gap: 2rem;
-  padding: 2rem;
-}
-
-.source-code {
-  text-align: center;
-  text-decoration: none;
-  border-radius: 25px;
-  background: black;
-  font-size: 0.8rem;
-  border: none;
-  height: 2.5rem;
-  width: 10rem;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.01);
-  font-weight: 600;
-}
-
-.source-code a {
-  color: white;
-}
-
-.source-code a:hover {
   color: #EC6164;
 }
