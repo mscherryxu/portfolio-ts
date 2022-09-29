@@ -2,36 +2,12 @@
 @import "./styles/footer.css";
 @import "./styles/about.css";
 @import "./styles/contact.css";
+@import "./styles/projects.css";
 @import "./styles/media-queries.css";
 
 * {
   box-sizing: border-box;
   font-family: sans-serif;
-}
-
-.parent-container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 2rem;
-}
-
-.projects-title {
-  font-size: 1.75rem;
-  color: #EC6164;
-}
-
-.project-gif {
-  display: flex;
-  margin-top: 2rem;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-ul li {
-  margin-left: -1rem;
-  padding: 0.5rem;
-  line-height: 1.25;
 }
 
 a:link {
