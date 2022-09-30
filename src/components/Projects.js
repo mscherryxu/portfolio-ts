@@ -6,11 +6,17 @@ const Projects = () => {
       <h1 className="projects-title">Projects</h1>
       <h2>Lift the World</h2>
       <div className="project-container">
-        <img
-          src="https://media4.giphy.com/media/fBWUcjXDlQf1QMGdrO/giphy.gif?cid=790b761186dcc13a29592b84ed058a6445d8a049e7ef745d&rid=giphy.gif&ct=g"
-          alt="Gif of Lift the World App"
+        <a
+          href="https://lift-the-world.herokuapp.com/"
+          target="_blank"
+          rel="noreferrer"
           className="project-lift-gif"
-        />
+        >
+          <img
+            src="https://media.giphy.com/media/z3CYMbpdbB6k1ncGPA/giphy.gif"
+            alt="Gif of Lift the World App"
+          />
+        </a>
         <div className="list">
           <p>
             Team project built with 4 engineers: a progressive web app (PWA) to
