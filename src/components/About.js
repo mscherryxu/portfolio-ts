@@ -11,10 +11,10 @@ const About = () => {
           nutrition education.
         </p>
         <p>
-          Now, I am looking for a change to constantly learn and grow and found
-          Software Engineering as my new passion. Time passes by so quickly with
-          building projects, creating applications, and using new technologies.
-          I would like to continue helping others with my newfound passion in
+          Now, I am looking for work opportunities to keep learning and growing
+          as a Software Engineer. Time passes by so quickly with building
+          projects, creating applications, and using new technologies. I would
+          like to continue helping others with my newfound passion in
           technology.
         </p>
       </div>
