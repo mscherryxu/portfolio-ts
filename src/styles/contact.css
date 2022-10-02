@@ -52,3 +52,23 @@
 .contact-info {
   margin: 0.25rem;
 }
+
+
+.submit-button {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 25px;
+  background: black;
+  font-size: 0.8rem;
+  border: none;
+  height: 2.5rem;
+  width: 5rem;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15), 0px 4px 4px rgba(0, 0, 0, 0.01);
+  font-weight: 600;
+  color: white;
+}
+
+.submit-button:hover {
+  cursor: pointer;
+  color: #EC6164;
+}
