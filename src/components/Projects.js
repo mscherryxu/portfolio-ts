@@ -39,7 +39,7 @@ const Projects = () => {
               rel="noreferrer"
               className="a-button"
             >
-              Deployed
+              Live Site
             </a>
             <a
               href="https://github.com/mscherryxu/lift-the-world"
@@ -76,7 +76,7 @@ const Projects = () => {
               rel="noreferrer"
               className="a-button"
             >
-              Deployed
+              Live Site
             </a>
             <a
               href="https://github.com/mscherryxu/baked"

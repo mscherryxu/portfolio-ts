@@ -95,9 +95,9 @@ function Contact() {
               />
             </div>
             <div>
-              <Button type="submit" variant="contained" color="secondary">
+              <button type="submit" className="submit-button">
                 Send
-              </Button>
+              </button>
             </div>
           </form>
         </Box>
