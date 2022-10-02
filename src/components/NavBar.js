@@ -71,14 +71,6 @@ const NavBar = () => {
                     <Link to="/projects" className="nav-link">
                       Projects
                     </Link>
-                    <a
-                      href="https://docs.google.com/document/d/1KY6UrGO4Or2B-wIfGi2nHomGm5SX1UQVYEp5yImiB4U/edit?usp=sharing"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="nav-link"
-                    >
-                      Resume
-                    </a>
                     <Link to="/contact" className="nav-link">
                       Contact
                     </Link>
@@ -95,14 +87,6 @@ const NavBar = () => {
           <Link to="/projects" className="nav-link">
             Projects
           </Link>
-          <a
-            href="https://docs.google.com/document/d/1KY6UrGO4Or2B-wIfGi2nHomGm5SX1UQVYEp5yImiB4U/edit?usp=sharing"
-            target="_blank"
-            rel="noreferrer"
-            className="nav-link"
-          >
-            Resume
-          </a>
           <Link to="/contact" className="nav-link">
             Contact
           </Link>
