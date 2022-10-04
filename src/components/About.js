@@ -18,13 +18,14 @@ const About = () => {
           to America.
         </p>
         <p className="intro-p">
-          I enjoy learning and speaking in different languages. Growing up, I
-          mostly spoke in <strong>Cantonese</strong> at home with my family, and
-          I learned <strong>English</strong> from school and watching TV.
+          I enjoy learning and speaking in different languages. I also enjoy
+          eating foods from various cultures. Growing up, I mostly spoke in{" "}
+          <strong>Cantonese</strong> at home with my family, and I learned{" "}
+          <strong>English</strong> from school and watching TV.
         </p>
         <p className="intro-p">
-          I learned <strong>Mandarin</strong> from my first dietitian role in
-          Flushing to communicate with clients, and I learned{" "}
+          I learned <strong>Mandarin</strong> at my first dietitian role in
+          Flushing to communicate with clients, and I picked up{" "}
           <strong>Spanish</strong> from my colleagues and patients at a nursing
           and rehabilitation facility I worked at.
         </p>

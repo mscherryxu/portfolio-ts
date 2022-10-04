@@ -12,6 +12,10 @@
   list-style-type: none;
 }
 
+.hobbies li {
+  line-height: 2;
+}
+
 .girl-emoji {
   display: absolute;
   margin-left: 1rem;
