@@ -1,0 +1,12 @@
+.hobbies {
+  list-style-type: none;
+}
+
+.intro-p {
+  line-height: 1.5;
+  margin: 1rem 0 1rem;
+}
+
+.hobbies-container {
+  margin-top: 1rem;
+}
