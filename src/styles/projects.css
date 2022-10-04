@@ -37,6 +37,7 @@
 
 .list p {
   display: flex;
+  line-height: 1.5;
 } 
 
 .button-container {
