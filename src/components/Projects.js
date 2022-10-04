@@ -19,8 +19,8 @@ const Projects = () => {
         </a>
         <div className="list">
           <p>
-            Team project of 4 engineers building a progressive web app (PWA) to
-            track users' weightlifting progress and help users develop
+            Worked with a team of 4 engineers to build a progressive web app
+            (PWA) to track users' weightlifting progress and help users develop
             motivation to lift by using characters users can choose and unlock.
             Total weight lifted are compared to real-world objects. The more a
             user lifts, the more characters are unlocked.
