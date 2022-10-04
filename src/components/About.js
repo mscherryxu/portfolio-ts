@@ -13,18 +13,20 @@ const About = () => {
           />
         </h1>
         <p className="intro-p">
-          Born in New York, New York and raised in Brooklyn, NY by parents who
-          immigrated to America.
+          Born in <span className="city">New York, New York</span> and raised in{" "}
+          <span className="city">Brooklyn, NY</span> by parents who immigrated
+          to America.
         </p>
         <p className="intro-p">
           I enjoy learning and speaking in different languages. Growing up, I
-          mostly spoke in Cantonese at home with my family, and I learned
-          English from school and watching TV.
+          mostly spoke in <strong>Cantonese</strong> at home with my family, and
+          I learned <strong>English</strong> from school and watching TV.
         </p>
         <p className="intro-p">
-          I learned Mandarin from my first dietitian role in Flushing to
-          communicate with clients, and I learned Spanish from my colleagues and
-          patients at a nursing and rehabilitation facility I worked at.
+          I learned <strong>Mandarin</strong> from my first dietitian role in
+          Flushing to communicate with clients, and I learned{" "}
+          <strong>Spanish</strong> from my colleagues and patients at a nursing
+          and rehabilitation facility I worked at.
         </p>
         <div className="hobbies-container">
           My hobbies include:
