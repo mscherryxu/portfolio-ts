@@ -1,5 +1,11 @@
 .intro {
   display: relative;
+  margin-bottom: 0.75rem;
+}
+
+.city {
+  font-weight: 600;
+  color: #EC6164;
 }
 
 .hobbies {
