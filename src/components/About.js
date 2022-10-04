@@ -4,7 +4,14 @@ const About = () => {
   return (
     <div className="outer-container">
       <div className="about-parent-container">
-        <h1 className="intro">About Me</h1>
+        <h1 className="intro">
+          About Me
+          <img
+            src="https://emojipedia-us.s3.dualstack.us-west-1.amazonaws.com/thumbs/120/samsung/320/girl_1f467.png"
+            alt="Emoji of girl"
+            className="girl-emoji"
+          />
+        </h1>
         <p className="intro-p">
           Born in New York, New York and raised in Brooklyn, NY by parents who
           immigrated to America.
