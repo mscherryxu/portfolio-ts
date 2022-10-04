@@ -1,0 +1,23 @@
+.intro {
+  display: relative;
+}
+
+.hobbies {
+  list-style-type: none;
+}
+
+.girl-emoji {
+  display: absolute;
+  margin-left: 1rem;
+  margin-bottom: -0.5rem;
+  width: 2.5rem;
+}
+
+.intro-p {
+  line-height: 1.5;
+  margin: 1rem 0 1rem;
+}
+
+.hobbies-container {
+  margin-top: 1rem;
+}
