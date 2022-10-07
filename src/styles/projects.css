@@ -13,6 +13,7 @@
 .projects-title {
   font-size: 1.75rem;
   color: #EC6164;
+  padding-top: 2rem;
 }
 
 .project-lift-gif {
@@ -31,6 +32,7 @@
 .list {
   display: flex;
   flex-direction: column;
+  width: 60%;
 }
 
 .list p {
