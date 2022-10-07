@@ -18,3 +18,7 @@ a {
 a:hover {
   color: #EC6164;
 }
+
+.routes-container {
+  overflow: hidden;
+}

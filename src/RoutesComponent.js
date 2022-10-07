@@ -7,7 +7,7 @@ import Contact from "./components/Contact";
 
 const RoutesComponent = () => {
   return (
-    <div>
+    <div className="routes-container">
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
