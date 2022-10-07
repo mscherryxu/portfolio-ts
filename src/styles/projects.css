@@ -1,8 +1,7 @@
-.parent-container {
+.projects-parent-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 2rem;
 }
 
 .project-container {
@@ -32,7 +31,6 @@
 .list {
   display: flex;
   flex-direction: column;
-  width: 70%;
 }
 
 .list p {
