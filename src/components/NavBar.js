@@ -19,6 +19,12 @@ const NavBar = () => {
       leave: { opacity: 0, transform: "translateX(-100%)" },
     }) || [];
 
+  const MobileNavLink = ({ to, name }) => (
+    <Link to={to} className="nav-link" onClick={() => setShowMenu(false)}>
+      {name}
+    </Link>
+  );
+
   return (
     <>
       <div className="nav-bar">
@@ -31,7 +37,11 @@ const NavBar = () => {
             />
           </Link>
         </div>
-        <div className="toggle-button" onClick={() => setShowMenu(!showMenu)}>
+        <div
+          className="toggle-button"
+          role="button"
+          onClick={() => setShowMenu(!showMenu)}
+        >
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>
@@ -65,15 +75,9 @@ const NavBar = () => {
                   </div>
                   <div className="nav-links-bar-menu">
                     <span className="navigate-to">Navigate to:</span>
-                    <Link to="/about" className="nav-link">
-                      About
-                    </Link>
-                    <Link to="/projects" className="nav-link">
-                      Projects
-                    </Link>
-                    <Link to="/contact" className="nav-link">
-                      Contact
-                    </Link>
+                    <MobileNavLink to="/about" name="About" />
+                    <MobileNavLink to="/projects" name="Projects" />
+                    <MobileNavLink to="/contact" name="Contact" />
                   </div>
                 </div>
               </animated.div>

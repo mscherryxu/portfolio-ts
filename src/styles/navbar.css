@@ -4,7 +4,7 @@
   flex-direction: column;
   align-items: center;
   background-color: #F8EFED;
-  padding: 2rem;
+  padding: 0.5rem;
 }
 
 .nav-links {
@@ -20,7 +20,7 @@
 }
 
 .nav-logo {
-  width: 25vh;
+  width: 45vw;
 }
 
 .toggle-button {
