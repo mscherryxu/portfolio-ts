@@ -1,7 +1,5 @@
 .projects-parent-container {
-  /*display: flex;
-  flex-direction: column;
-  align-items: center;*/
+  
 }
 .projects-parent-container h1, .projects-parent-container h2{
   text-align: center;
@@ -32,22 +30,14 @@
   padding-bottom: 1rem;
 }
 
-.list {
-  display: flex;
-  flex-direction: column;
-  width: 60%;
+.project-info {
+  padding: 1.6rem;
 }
-
-.list p {
-  display: flex;
-  line-height: 1.5;
-} 
 
 .button-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
-  padding: 2rem;
+  gap: 1rem;
 }
 
 .a-button {

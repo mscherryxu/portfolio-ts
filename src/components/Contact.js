@@ -44,7 +44,12 @@ function Contact() {
   return (
     <>
       <ThemeProvider theme={theme}>
-        <Box display="flex" justifyContent="center" textAlign="center">
+        <Box
+          display="flex"
+          justifyContent="center"
+          textAlign="center"
+          padding="1.6rem"
+        >
           <form onSubmit={onHandleSubmit}>
             <div>
               <h1 className="contact-header">
