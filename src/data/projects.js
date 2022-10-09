@@ -5,7 +5,7 @@ const projects = [
     img: {
       src: "https://media.giphy.com/media/z3CYMbpdbB6k1ncGPA/giphy.gif",
       alt: "Gif of Lift the World App",
-      className: "project-lift-gif",
+      className: "project-lift-link",
     },
     github: "https://github.com/mscherryxu/lift-the-world",
     description: [
@@ -20,7 +20,7 @@ const projects = [
     img: {
       src: "https://media.giphy.com/media/yu5h1wCpgITAc70KCJ/giphy.gif",
       alt: "Gif of Baked By Fullstack",
-      className: "project-baked-gif",
+      className: "project-baked-link",
     },
     github: "https://github.com/mscherryxu/baked",
     description: [

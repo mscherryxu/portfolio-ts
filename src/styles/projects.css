@@ -14,13 +14,13 @@
   padding-top: 2rem;
 }
 
-.project-lift-gif {
-  display: flex;
+.project-lift-link {
   padding-bottom: 1rem;
   margin-right: 0;
+  text-align: center;
 }
 
-.project-baked-gif {
+.project-baked-link img {
   display: flex;
   margin: auto;
   width: 20rem;
