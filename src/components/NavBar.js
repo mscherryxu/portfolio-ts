@@ -37,7 +37,11 @@ const NavBar = () => {
             />
           </Link>
         </div>
-        <div className="toggle-button" onClick={() => setShowMenu(!showMenu)}>
+        <div
+          className="toggle-button"
+          role="button"
+          onClick={() => setShowMenu(!showMenu)}
+        >
           <span className="bar"></span>
           <span className="bar"></span>
           <span className="bar"></span>

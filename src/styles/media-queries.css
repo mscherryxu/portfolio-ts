@@ -6,6 +6,10 @@
     gap: 2rem;
   }
 
+  .nav-logo {
+    width: 12rem;
+  }
+
   .nav-links {
     display: flex;
     flex-direction: row;
