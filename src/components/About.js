@@ -19,14 +19,14 @@ const About = () => {
       <p>
         I enjoy learning and speaking in different languages. I also enjoy
         eating foods from various cultures. Growing up, I mostly spoke in{" "}
-        <strong>Cantonese</strong> at home with my family, and I learned{" "}
-        <strong>English</strong> from school and watching TV.
+        <b>Cantonese</b> at home with my family, and I learned <b>English</b>{" "}
+        from school and watching TV.
       </p>
       <p>
-        I learned <strong>Mandarin</strong> at my first dietitian role in
-        Flushing to communicate with clients, and I picked up{" "}
-        <strong>Spanish</strong> from my colleagues and patients at a nursing
-        and rehabilitation facility I worked at.
+        I learned <b>Mandarin</b> at my first dietitian role in Flushing to
+        communicate with clients, and I picked up <b>Spanish</b> from my
+        colleagues and patients at a nursing and rehabilitation facility I
+        worked at.
       </p>
       <div className="hobbies-container">
         My hobbies include:
