@@ -17,7 +17,7 @@ const Projects = () => {
             alt="Gif of Lift the World App"
           />
         </a>
-        <div className="list">
+        <div>
           <p>
             Worked with a team of 4 engineers to build a progressive web app
             (PWA) to track users' weightlifting progress and help users develop
@@ -59,7 +59,7 @@ const Projects = () => {
           alt="Gif of Baked By Fullstack"
           className="project-baked-gif"
         />
-        <div className="list">
+        <div>
           <p>
             Team project with 4 engineers to build an e-commerce site where
             guests and logged-in users can purchase baked goods. Admin can edit,

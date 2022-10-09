@@ -1,7 +1,10 @@
 .projects-parent-container {
-  display: flex;
+  /*display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: center;*/
+}
+.projects-parent-container h1, .projects-parent-container h2{
+  text-align: center;
 }
 
 .project-container {
@@ -18,8 +21,8 @@
 
 .project-lift-gif {
   display: flex;
-  margin: auto;
   padding-bottom: 1rem;
+  margin-right: 0;
 }
 
 .project-baked-gif {

@@ -16,32 +16,18 @@
     justify-content: flex-end;
   }
 
-  .outer-container {
-    padding-top: 2rem;
-  }
-
-  .about-parent-container {
-    display: flex;
-    flex-direction: column;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-  }
-
   .project-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 2rem;
+    margin-bottom: 2rem;
   }
 
-  .project-gif {
-    display: flex;
-    margin: auto;
+  .project-lift-gif {
+    margin-right: 3rem;
   }
 
-  .list {
-    width: 35%;
-    margin: 0rem 10rem -2rem 0;
+  .project-baked-gif {
+    margin-right: 3rem;
   }
 }
