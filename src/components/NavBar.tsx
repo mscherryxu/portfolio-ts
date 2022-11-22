@@ -19,12 +19,6 @@ const NavBar = () => {
       leave: { opacity: 0, transform: "translateX(-100%)" },
     }) || [];
 
-  const MobileNavLink = ({ to, name }) => (
-    <Link to={to} className="nav-link" onClick={() => setShowMenu(false)}>
-      {name}
-    </Link>
-  );
-
   return (
     <>
       <div className="nav-bar">
@@ -62,10 +56,10 @@ const NavBar = () => {
         {menuTransitions(
           (props, item, key) =>
             item && (
-              <animated.div 
-              // key={key} 
-              style={props} 
-              className="menu"
+              <animated.div
+                // key={key}
+                style={props}
+                className="menu"
               >
                 <div className="hamburger-container">
                   <div className="nav-hamburger-logo">
@@ -79,9 +73,27 @@ const NavBar = () => {
                   </div>
                   <div className="nav-links-bar-menu">
                     <span className="navigate-to">Navigate to:</span>
-                    <MobileNavLink to="/about" name="About" />
-                    <MobileNavLink to="/projects" name="Projects" />
-                    <MobileNavLink to="/contact" name="Contact" />
+                    <Link
+                      to="/about"
+                      className="nav-link"
+                      onClick={() => setShowMenu(false)}
+                    >
+                      About
+                    </Link>
+                    <Link
+                      to="/projects"
+                      className="nav-link"
+                      onClick={() => setShowMenu(false)}
+                    >
+                      Projects
+                    </Link>
+                    <Link
+                      to="/contact"
+                      className="nav-link"
+                      onClick={() => setShowMenu(false)}
+                    >
+                      Contact
+                    </Link>
                   </div>
                 </div>
               </animated.div>

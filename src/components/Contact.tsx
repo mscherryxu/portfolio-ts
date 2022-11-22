@@ -16,14 +16,13 @@ const theme = createTheme({
 });
 
 function Contact() {
-  const onHandleSubmit = async (e) => {
+  const onHandleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     try {
       await emailjs.sendForm(
         "service_q879twl",
         "template_4zourkh",
-        e.target,
+        `${e.currentTarget}`,
         "d6px4sSh50YtAX6w5"
       );
       Swal.fire({
@@ -31,14 +30,17 @@ function Contact() {
         title: "Message sent sucessfully 👍",
       });
     } catch (error) {
-      console.log(error.text);
-      Swal.fire({
-        icon: "error",
-        title: "Something went wrong 🙃",
-        text: error.text,
-      });
+      if (error instanceof Error) {
+        console.log(error.message); 
+        Swal.fire({
+          icon: "error",
+          title: "Something went wrong 🙃",
+          text: error.message,
+        });
+      }
     }
-    e.target.reset();
+    e.currentTarget.reset();
+ 
   };
 
   return (
@@ -76,8 +78,7 @@ function Contact() {
             </div>
             <div>
               <TextareaAutosize
-                type="text"
-                label="Message"
+                aria-label="outlined textarea"
                 required
                 name="user_message"
                 variant="outlined"
