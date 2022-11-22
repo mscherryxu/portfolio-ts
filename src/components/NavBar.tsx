@@ -51,8 +51,8 @@ const NavBar = () => {
           (props, item, key) =>
             item && (
               <animated.div
-                key={key}
-                style={props}
+                // key={key}
+                // style={props}
                 className="menuMask"
                 onClick={() => setShowMenu(false)}
               ></animated.div>
@@ -62,7 +62,11 @@ const NavBar = () => {
         {menuTransitions(
           (props, item, key) =>
             item && (
-              <animated.div key={key} style={props} className="menu">
+              <animated.div 
+              // key={key} 
+              style={props} 
+              className="menu"
+              >
                 <div className="hamburger-container">
                   <div className="nav-hamburger-logo">
                     <Link to="/">
